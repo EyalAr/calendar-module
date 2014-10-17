@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calendar Example</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <style type="text/css">
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .my-calendar{
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    }
+    </style>
+    <script data-main="script/main" src="bower_components/requirejs/require.js"></script>
+</head>
+
+<body>
+
+    <div class="my-calendar">
+        <div class="calm-calendar">
+            <div class="calm-container">
+                <div class="calm-head">
+                    <div class="calm-days">
+                        <div class="calm-day">
+                            <!-- Time column -->
+                        </div>
+                        <div class="calm-day"></div>
+                        <div class="calm-day"></div>
+                        <div class="calm-day"></div>
+                        <div class="calm-day"></div>
+                        <div class="calm-day"></div>
+                        <div class="calm-day"></div>
+                        <div class="calm-day"></div>
+                    </div>
+                </div>
+                <div class="calm-body">
+                    <div class="calm-layer">
+                        <div class="calm-cols">
+                            <div>
+                                <div class="calm-col"></div>
+                                <div class="calm-col"></div>
+                                <div class="calm-col"></div>
+                                <div class="calm-col"></div>
+                                <div class="calm-col"></div>
+                                <div class="calm-col"></div>
+                                <div class="calm-col"></div>
+                                <div class="calm-col"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calm-layer">
+                        <div class="calm-rows">
+                            <div class="calm-time-indicator"></div>
+                            <!--
+                                Each of the following rows represents half an
+                                hour. Total 48 rows = 24 hours.
+                            -->
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                            <div class="calm-row calm-half"></div>
+                        </div>
+                    </div>
+                    <div class="calm-layer">
+                        <div class="calm-content">
+                            <div class="calm-content-cols">
+                                <div>
+                                    <div class="calm-col">
+                                        <!-- Time -->
+                                    </div>
+                                    <!--
+                                        Each of the following columns is a
+                                        container for the events of a
+                                        week day
+                                    -->
+                                    <div class="calm-col"></div>
+                                    <div class="calm-col"></div>
+                                    <div class="calm-col"></div>
+                                    <div class="calm-col"></div>
+                                    <div class="calm-col"></div>
+                                    <div class="calm-col"></div>
+                                    <div class="calm-col"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
