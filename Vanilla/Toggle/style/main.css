@@ -1,0 +1,140 @@
+.calm-calendar {
+  width: 100%;
+  height: 100%;
+}
+.calm-calendar .calm-container {
+  width: 100%;
+  height: 100%;
+  border: 1px gray solid;
+  position: relative;
+}
+.calm-calendar .calm-head {
+  width: 100%;
+  height: 10%;
+  display: table;
+  position: absolute;
+}
+.calm-calendar .calm-head .calm-days {
+  width: 100%;
+  height: 100%;
+  display: table-row;
+}
+.calm-calendar .calm-head .calm-days .calm-day {
+  height: 100%;
+  border-right: 1px #ddd solid;
+  border-bottom: 1px #bbb solid;
+  width: 13%;
+  display: table-cell;
+}
+.calm-calendar .calm-head .calm-days .calm-day:last-child {
+  border-right: none;
+}
+.calm-calendar .calm-head .calm-days .calm-day:first-child {
+  width: 9%;
+}
+.calm-calendar .calm-head .calm-days .calm-day:nth-child(2n) {
+  background: #eee;
+}
+.calm-calendar .calm-head .calm-days .calm-day:nth-child(2n+1) {
+  background: #e9e9e9;
+}
+.calm-calendar .calm-body {
+  position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+}
+.calm-calendar .calm-body .calm-layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.calm-calendar .calm-cols {
+  width: 100%;
+  height: 300%;
+  display: table;
+}
+.calm-calendar .calm-cols div {
+  display: table-row;
+}
+.calm-calendar .calm-cols div .calm-col {
+  display: table-cell;
+  border-right: 1px gray solid;
+  width: 13%;
+}
+.calm-calendar .calm-cols div .calm-col:last-child {
+  border-right: none;
+}
+.calm-calendar .calm-cols div .calm-col:first-child {
+  width: 9%;
+}
+.calm-calendar .calm-rows {
+  width: 100%;
+  height: 100%;
+}
+.calm-calendar .calm-rows .calm-row {
+  width: 100%;
+  height: 6.25%;
+}
+.calm-calendar .calm-rows .calm-row.calm-half {
+  border-bottom: 1px #ddd solid;
+}
+.calm-calendar .calm-rows .calm-row.calm-half:nth-child(2n+1) {
+  border-bottom: 1px #bbb solid;
+}
+.calm-calendar .calm-rows .calm-row:last-child {
+  border-right: none;
+}
+.calm-calendar .calm-rows .calm-time-indicator {
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #ccc;
+}
+.calm-calendar .calm-slots {
+  width: 100%;
+  height: 100%;
+}
+.calm-calendar .calm-slots .calm-slots-cols {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.calm-calendar .calm-slots .calm-slots-cols > div {
+  display: table-row;
+}
+.calm-calendar .calm-slots .calm-slots-cols > div .calm-col {
+  display: table-cell;
+  width: 13%;
+  height: 100%;
+}
+.calm-calendar .calm-slots .calm-slots-cols > div .calm-col:last-child {
+  border-right: none;
+}
+.calm-calendar .calm-slots .calm-slots-cols > div .calm-col:first-child {
+  width: 9%;
+}
+.calm-calendar .calm-slot {
+  width: 100%;
+  height: 6.25%;
+  min-height: 1px;
+}
+.calm-calendar .calm-slot.available {
+  background: rgba(50, 50, 250, 0.5);
+}
+.calm-calendar .calm-slot.not-available {
+  background: rgba(250, 50, 50, 0.5);
+}
+.calm-calendar .calm-slot.locked {
+  background: rgba(120, 120, 50, 0.66);
+}
+.calm-calendar .calm-slot.hover {
+  background: rgba(120, 120, 120, 0.33);
+}
