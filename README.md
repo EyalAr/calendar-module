@@ -2,8 +2,8 @@
 
 An example for building a calendar module to:
 
-0. Display daily events.
-0. Toggle available / not-available cells in the calendar.
+0. [Display daily events](http://eyalar.github.io/calendar-module/Vanilla/Toggle/).
+0. [Toggle available / not-available cells in the calendar](http://eyalar.github.io/calendar-module/Vanilla/Display/).
 
 Installation:
 
